@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--   <item android:drawable="@color/greenDarkk" android:state_pressed="true"/> -->
+    <!-- pressed -->
+  <!--   <item android:drawable="@color/greenDarkk" android:state_focused="true"/> -->
+    
+     <item android:state_pressed="true">
+        <shape android:shape="rectangle"  >
+             <corners android:radius="2dip" />
+          <!--  <stroke android:width="0.5dip" android:color="#85b005" />   -->
+             <gradient  android:angle="0"  android:startColor="@color/androidBlue" android:endColor="@color/androidBlue2" />            
+         </shape>
+     </item>
+    
+    
+
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+             <corners android:radius="1dip" />
+          <!--   <stroke android:width="0.5dip" android:color="#85b005" />  -->
+             <gradient  android:angle="0"  android:startColor="@color/androidBlue" android:endColor="@color/androidBlue2" />            
+         </shape>
+     </item>
+
+    
+    <!-- focused -->
+   <!--  <item android:drawable="@android:color/holo_green_light"/> -->
+
+
+ 
+    <item  >
+        <shape android:shape="rectangle"  >
+             <corners android:radius="0dip" />
+            <stroke android:width="1.5dip" android:color="@color/White" />  
+             <gradient  android:angle="0"  android:startColor="@color/androidBlue2" android:endColor="@color/androidBlue" />            
+         </shape>
+     </item>
+    
+
+
+
+ 
+    <!-- default -->
+
+</selector>

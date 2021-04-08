@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Medyspire</string>
+    <string name="phno">Phone no</string>
+    <string name="password">New Password</string>
+    <string name="confpassword">Confirm Password</string>
+    <string name="alreadyhaveAccount"><font fgcolor='#a_gray'>Already have an account ?</font> <font fgcolor='#3260B1'>Login</font></string>
+    <string name="submit">Submit</string>
+    <string name="createanAccount">Create an Account</string>
+    <string name="serverDown">Sorry, Server is down. Please try again later.</string>
+    <string name="next">Next </string>
+    <string name="fullname">Full name</string>
+    <string name="enterthename">Enter the Name</string>
+    <string name="fatherspouse">Father / spouse name</string>
+    <string name="spouse">Enter Father / spouse name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="enterdob">Select the DOB</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="femal">Female</string>
+    <string name="marital">Marital Status</string>
+    <string name="single">Single</string>
+    <string name="married">Married</string>
+    <string name="addressInfo">Address Info</string>
+    <string name="address">Address </string>
+    <string name="enteraddress">Enter the Address </string>
+    <string name="state">State</string>
+    <string name="enterState">Enter the State</string>
+    <string name="area">Area</string>
+    <string name="enterArea">Enter the Area</string>
+    <string name="city">City</string>
+    <string name="enterCity">Enter the City</string>
+    <string name="employmentinfo">Employment Info</string>
+    <string name="employment">Employment</string>
+    <string name="enterEmployment">Enter the Working</string>
+    <string name="anualIncome">Annual Income</string>
+    <string name="enterAmount">Enter the Amount</string>
+    <string name="termsandCondition">Terms and Conditions</string>
+    <string name="agree">i agree to the terms and conditions</string>
+    <string name="enterPincode">Enter Pincode</string>
+    <string name="pincode">PinCode</string>
+    <string name="passwordLength">Password length  is too short. Need minimum 4 character</string>
+    <string name="phoneLength">Phone Number should be minimum 10 number</string>
+    <string name="information">Information </string>
+    <string name="enterNewPassword">Enter new password</string>
+    <string name="enterPhone">Enter Phone number </string>
+    <string name="enterConfiPassword">Enter confirm password</string>
+    <string name="passwordNotMatching">New password and confirm password not matching</string>
+    <string name="ok">OK</string>
+    <string name="stateselect">Select the State</string>
+    <string name="areaSelect">Select the Area</string>
+    <string name="pinSelect">Select PinCode</string>
+    <string name="notrecived">if you didn\'t Recevied a code \n <font fgcolor='#C71585'>Resend </font></string>
+    <string name="otpenter">Enter your OTP</string>
+    <string name="enterverificationcode">Enter The verification code we \n just sent your phone</string>
+    <string name="verify">Verify</string>
+    <string name="pleaseEnterRegNo">Please enter your Register no</string>
+    <string name="doYouhaveAccount">Don\'t have an account ? <font fgcolor='#409fde'>  Sign up here </font></string>
+    <string name="forgetPass">Forget Password ?</string>
+    <string name="codeSent">Code have sent to Registerd Phone no \n please check</string>
+    <string name="send">Send</string>
+
+</resources>

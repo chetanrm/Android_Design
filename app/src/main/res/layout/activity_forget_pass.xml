@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/container">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view"
+                app:layout_constraintVertical_bias="0.199">
+
+            </androidx.viewpager2.widget.ViewPager2>
+
+          <!--  <LinearLayout
+                android:id="@+id/lay_indicator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.43">
+
+            </LinearLayout>
+-->
+
+
+
+            <TextView
+                android:id="@+id/tvCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:gravity="left|center"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/forgetPass"
+                android:textSize="20dp"
+                android:textColor="@color/androidBlue"/>
+
+
+            <TextView
+                android:id="@+id/tvCreateAc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left|center"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/pleaseEnterRegNo"
+                android:textSize="20dp"
+                android:textColor="@color/androidBlue"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:hint="@string/phno"
+                app:startIconDrawable="@drawable/ic_person">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPhoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="10"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:inputType="text"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/send"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/codeSent"
+                android:textSize="13dp"
+                android:textColor="@color/Gray"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogin"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/doYouhaveAccount"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textSize="16sp"
+                android:typeface="sans" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

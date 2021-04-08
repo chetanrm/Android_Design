@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPActivity">
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/tvCreateAc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/enterverificationcode"
+            android:textSize="16dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/androidBlue"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="left|center"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/otpenter"
+            android:textSize="14dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/androidBlue"/>
+
+
+        <com.customClass.OtpEditText
+            android:id="@+id/et_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:maxLength="6"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/verifyOtpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="9dp"
+            android:text="@string/verify"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:inputType="text"/>
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/notrecived"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textSize="16sp"
+            android:typeface="sans" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

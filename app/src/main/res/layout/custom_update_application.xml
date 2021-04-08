@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/WhiteSmoke2"
+    android:gravity="center" android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="@android:drawable/stat_sys_warning" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Update Your Application"
+        android:textColor="@color/androidBlue"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Currently you are using old version.\nPlease update to new version."
+        android:textColor="@color/androidBlue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnCancelAlert"
+            style="@style/btnMedspyireBlue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            style="@style/btnMedspyireBlue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update" />
+    </LinearLayout>
+
+</LinearLayout>
